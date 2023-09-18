@@ -7,11 +7,12 @@ react-native-tab-view wrap the FlatList
 1. add header props, it was wrapped in a FlatList
 2. each Tab's minHeight ScreenHeight - TabHeight(60)
 3. fix TabBar at the top of Screen when scroll over header's height
-4. fix Indicator space 0
+4. fix Indicator space
 
 ## TODO：
 
 1. remember Tab's scroll position
+2. make Indicator space set automatic from parent styles, current it only support 'space-between'
 
 ## FIXME：
 
